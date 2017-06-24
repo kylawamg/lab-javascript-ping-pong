@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   padding: 0;
   background: url("../img/board-background.jpg");
-
+  text-align: center;
 
 }
 
@@ -13,9 +13,10 @@ body {
 }
 #board {
   height: 500px;
-  width: 80vw;
+  border: solid 10px #fff;
+  width: 1000px;
   background: #337a1f;
-  position:absolute;
+  position:relative;
   left: 10%;
 }
 
@@ -41,7 +42,7 @@ body {
 }
 
 #net {
-  width: 20px;
+  width: 10px;
   height: 100%;
   background: #fff;
   clear: both;
@@ -49,23 +50,38 @@ body {
 }
 
 #ball {
- height: 20px;
- width: 20px;
+ height: 15px;
+ width: 15px;
  border-radius: 50%;
  background: #000;
  position: absolute;
  top: 240px;
- left: 320px;
+ left: 490px;
 }
 
-.score span {
+.score  {
+  text-align: center;
+  background:#d3dded;
+  height: 120px;
+  width: 40%;
+  margin: 0 auto;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
 }
 
 .left {
+float:left;
+margin-left: 30%;
+
 }
 
 .right {
+  float:right;
+  margin-right: 30%;
 }
+
 
 button {
   padding: 0px;

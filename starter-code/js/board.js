@@ -10,6 +10,7 @@ Board.prototype.start = function(){
     var positionp1 = paddle1.position();
     var position2 = paddle2.position();
     console.log(positionp1);
+
 };
 
 Board.prototype.checkGame = function(){
