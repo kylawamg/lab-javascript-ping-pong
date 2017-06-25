@@ -88,7 +88,7 @@ Ball.prototype.pointScored = function() {
   console.log("yBall " + ballpositionY);
   if ((ballpositionX < paddlewidth) && (ballpositionY > paddle1y) && (ballpositionY < paddle1y + 100)) {
 console.log("rebot");
-  } else if (ballpositionX < 1) {
+  } else if (ballpositionX < 1 ) {
     alert('gikd');
   } else {
     console.log('nada');

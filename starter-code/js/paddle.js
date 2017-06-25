@@ -15,6 +15,7 @@ Paddle.prototype.moveUp = function(positionY) {
   var speed = 10;
   $('#paddle1').css('top', positionY - speed);
 
+
 };
 
 Paddle.prototype.moveDown = function(positionY) {
